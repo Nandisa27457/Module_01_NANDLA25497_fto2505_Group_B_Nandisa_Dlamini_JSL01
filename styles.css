@@ -1,4 +1,10 @@
 
+:root{
+    --body-color:#F4F7FD;
+}
+
+
+
 
 .side-bar{
     position:fixed;
@@ -12,13 +18,47 @@
 
 body{
     height:100vh;
-    background-color: #F4F7FD;
+    background-color: var(--body-color)
 }
 
 img.logo{
     width:152px;
-    height:30px;
+    height:32px;
     margin-top:32px;
     margin-left:34px;
+    margin-bottom:40px;
+}
+
+h4.header-1{
+    font-family:Plus Jakarta Sans;
+    font-weight:700;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing:2px;
+    color:#828FA3;
+    width:123px;
+    height:15px;
+    margin-left:32px;
+
+}
+
+button{
+    padding-left:8px;
+    padding-right: 8px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width:276px;
+    height:48px;
+    margin-top:5px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: #635FC7;
+    color:#FFFFFF;
+    border:none;
+    font-family: Plus Jakarta Sans;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing: 1px;
+    
 }
 
