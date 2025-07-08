@@ -96,8 +96,55 @@ h2.main-heading{
     line-height: 100%;
     color:#000112;
     padding-bottom:16px;
+}
 
-    
+/*Styling of the main body*/
+
+main{
+    display:grid;
+    grid-template-columns:264px 280px 264px;
+    grid-template-rows:80px 80px 80px 80px 80px;
+    margin-left: 350px;
 
 }
 
+div.oval{
+    height:15px;
+    width:15px;
+    background-color: #49C4E5;
+    border-radius: 50%;
+    position:relative;
+    top:30px;
+    right:20px;
+}
+
+div.oval-2{
+    height:15px;
+    width:15px;
+    background-color: #8471F2;
+    border-radius: 50%;
+    position:relative;
+    top:30px;
+    right:20px;
+}
+
+div.oval-3{
+    height:15px;
+    width:15px;
+    background-color:#67E2AE;
+    border-radius: 50%;
+    position:relative;
+    top:30px;
+    right:20px;
+    
+}
+
+h4{
+    color:#828FA3;
+    font-size: 12px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    height: 15px;
+    width:71px;
+}
