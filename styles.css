@@ -15,3 +15,10 @@ body{
     background-color: #F4F7FD;
 }
 
+img.logo{
+    width:152px;
+    height:30px;
+    margin-top:32px;
+    margin-left:34px;
+}
+
