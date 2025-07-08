@@ -6,6 +6,8 @@
 
 
 
+/*Styling of the side bar, Heading included and button*/
+
 .side-bar{
     position:fixed;
     top:0;
@@ -13,6 +15,7 @@
     height:100%;
     width:300px;
     background-color: #FFFFFF;
+
 
 }
 
@@ -60,5 +63,41 @@ button{
     font-weight:700;
     letter-spacing: 1px;
     
+}
+
+:hover{
+    button{
+        background-color: #A8A4FF;
+        animation-name: translate;
+        animation: ease;
+    }
+}
+
+/*Styling of Header and Heading*/
+
+header{
+    width:1140px;
+    height:97px;
+    background-color: #FFFFFF;
+    margin-left:293px;
+    position:relative;
+    bottom:7px;
+
+    
+
+}
+
+h2.main-heading{
+    margin:0;
+    margin-left:24px;
+    padding-top:26px;
+    font-size:24px;
+    font-weight:700;
+    line-height: 100%;
+    color:#000112;
+    padding-bottom:16px;
+
+    
+
 }
 
