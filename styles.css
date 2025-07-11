@@ -33,7 +33,7 @@ img.logo{
     margin-bottom:40px;
 }
 
-h4.header-1{
+h4.All-boards-heading{
     font-family:Plus Jakarta Sans;
     font-weight:700;
     font-size: 12px;
@@ -72,6 +72,7 @@ button{
         animation-name: translate;
         animation: ease;
     }
+    
 }
 
 /*Styling of Header and Heading*/
@@ -103,7 +104,7 @@ h2.main-heading{
 
 main{
     display:grid;
-    grid-template-columns:264px 280px 264px;
+    grid-template-columns:280px 280px 280px;
     grid-template-rows:80px 80px 80px 80px 80px;
     margin-left: 330px;  
     justify-content: space-evenly;
@@ -150,7 +151,7 @@ h4{
     width:71px;
 }
 
-div.item{
+div.task-card{
     width:280px;
     height:50px;
     background-color:var(--main-color);  
@@ -161,17 +162,58 @@ div.item{
     font-weight:700;
     padding-top:16px;
     padding-left:10px;
+    box-shadow: 5px 5px 20px 6px #364E7E1A;
     
 }
 
 
-@media (min-width:319px) and (max-width:1440px){
+@media (min-width:317px) and (max-width:1440px){
     main{
         display:flex;
-        flex-direction: column;   
+        flex-direction: column; 
+        position:relative;
+        top:10px; 
+        right:300px; 
+        
     }
 
+    div.task-card{
+        width:320px;
+        height:60px;
+        margin-left:26px;
+        position:relative;
+        right:40px;
+    }
+
+    header{
+        display:none;
+    }
+     
+
+    .side-bar{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
     
-}
+       
+    h4{
+        margin-bottom:35px;
+    }
+    
+    button{
+        display: none;
+    }
+    
+    h4.All-Boards-heading{
+         display:none;
+    }
+    
+    
+
+    
+    }
+    
+
 
 
