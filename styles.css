@@ -84,9 +84,6 @@ header{
     margin-left:293px;
     position:relative;
     bottom:7px;
-
-    
-
 }
 
 h2.main-heading{
@@ -183,6 +180,8 @@ div.task-card{
         margin-left:26px;
         position:relative;
         right:40px;
+        font-size: 15px;
+        
     }
 
     header{
@@ -209,7 +208,10 @@ div.task-card{
          display:none;
     }
     
-    
+    img.logo{
+        width:159px;
+        height:40px;
+    }
 
     
     }
