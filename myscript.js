@@ -1,6 +1,6 @@
 //Prompt for task-1
 let task = prompt("Enter task 1 title:"); //Prompt user for task title
-let description = prompt("Enter description"); // prompt user to enter title
+let description = prompt("Enter description"); // prompt user to enter description
 
 statusInput = "";
 while (
@@ -20,8 +20,8 @@ while (
 }
 
 //Prompt for task-2
-let task1 = prompt("Enter task 2 title:"); //Prompt user for task title
-let description2 = prompt("Enter description"); // prompt user to enter title
+let task1 = prompt("Enter task 2 title:"); //Prompt user for task title-2
+let description2 = prompt("Enter description"); // prompt user to enter description
 
 statusInput2 = "";
 while (
