@@ -1,16 +1,42 @@
-//Prompt for task 1
+//Prompt for task-1
+let task = prompt("Enter task 1 title:"); //Prompt user for task title
+let description = prompt("Enter description"); // prompt user to enter title
 
-let title=prompt("Enter title")// prompt user to enter title
-let task= prompt("Enter task 1 title:");//Prompt user for task title
-let statusInput= prompt("Enter status input"); //Prompt user for status input 
+statusInput = "";
+while (
+  statusInput !== "todo" &&
+  statusInput !== "doing" &&
+  statusInput !== "done"
+) {
+  statusInput = prompt("Enter status input").toLowerCase(); //Prompt user for status input
 
-if(statusInput !== "Todo, doing , done"){
-    window.alert("Invalid status.Please enter 'todo','done' or 'doing'")   
-    
-} 
-else {
-    console.log(task, "title:" + statusInput) 
+  if (statusInput === "done") {
+    console.log("Title: " + task + " ,status:" + statusInput);
+  } else if (statusInput === "todo" || statusInput === "doing") {
+    console.log("No tasks completed. Let's get to work!");
+  } else {
+    alert("Invalid status, Please enter 'todo', 'doing', or'done'");
+  }
 }
 
+//Prompt for task-2
+let task1 = prompt("Enter task 2 title:"); //Prompt user for task title
+let description2 = prompt("Enter description"); // prompt user to enter title
 
+statusInput2 = "";
+while (
+  statusInput2 !== "todo" &&
+  statusInput2 !== "doing" &&
+  statusInput2 !== "done"
+) {
+  statusInput2 = prompt("Enter status input").toLowerCase(); //Prompt user for status input
+
+  if (statusInput2 === "done") {
+    console.log("Title" + task + ",status:" + statusInput2);
+  } else if (statusInput2 === "todo" || statusInput2 === "doing") {
+    console.log("No tasks completed. Let's get to work!");
+  } else {
+    alert("Invalid status, Please enter 'todo', 'doing', or'done'");
+  }
+}
 
