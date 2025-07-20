@@ -30,6 +30,28 @@ This project involves developing a **visually accurate and fully responsive Kanb
 
 ![Desktop UI](./explainer-images/JSL01-Desktop.png)
 
+## Features
+
+- Task title, description and status prompt.
+- Task title and status output on console.
+- Live previews
+- Full screen mode
+- Mobile view
+
+
+
+## 🛠 Skills
+Javascript, HTML, CSS...
+
+
+## Tech Stack
+
+**Client:** HTML, CSS, TailwindCSS
+
+**Server:** Node.js
+
+
+
 ## Expected Outcome
 
 The final application will present a **visually cohesive, user-friendly, and responsive Kanban board** that aligns precisely with the provided Figma design. It will include **consistent styling**, **a well-structured layout, and intuitive task organization** to enhance usability across different devices.
